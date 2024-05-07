@@ -1,1 +1,14 @@
+================
+DOCKER-COMMANDS:
+================
 docker run --name container-name -e POSTGRES_PASSWORD=1 -p 5432:5432 -v volume-name:/var/lib/postgresql/data -d postgres:alpine
+
+
+
+
+===================================================
+TASKS:
+
+===================================================
+PROBLEMS:
+    1. adminkadan userga rasm qushilganda error bulyapti (minio)

@@ -39,3 +39,7 @@ class User(AbstractUser):
                                null=True, blank=True, default='users/default_user.jpg')
     banner = ResizedImageField(_('user_banner'), size=[1198, 124], upload_to='users/images', null=True, blank=True,
                                default='users/default_banner.jpg')
+
+    class Meta:
+        verbose_name = _('User')
+        verbose_name_plural = _('Users')

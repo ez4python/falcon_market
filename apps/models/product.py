@@ -38,12 +38,16 @@ class ProductImage(BaseModel):
 
 class Product(BaseModel):
     name = CharField(_('product_name'), max_length=255)
-    slug = SlugField(_('product_slug'), max_length=255, unique=True)
+    slug = SlugField(_('product_slug'), max_length=255, unique=True, null=True, blank=True)
 
     def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
         if force_update is True:
             self.slug = slugify(self.name)
         super().save(force_insert, force_update, using, update_fields)
+
+    class Meta:
+        verbose_name = _('Product')
+        verbose_name_plural = _('Products')
 
 
 class Order(BaseModel):
