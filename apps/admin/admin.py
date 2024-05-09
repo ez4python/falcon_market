@@ -10,7 +10,7 @@ from apps.models import User, Product
 
 @admin.register(User)
 class CustomUserAdmin(UserAdmin):
-    list_display = 'user_image', 'first_name', 'last_name', 'is_staff'
+    list_display = 'user_image', 'first_name', 'last_name', 'email', 'is_staff'
     fieldsets = (
         (None, {"fields": ("username", "password")}),
         (_("Personal info"), {"fields": ("first_name", "last_name", "email", 'avatar')}),
