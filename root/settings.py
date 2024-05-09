@@ -109,8 +109,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
-EMAIL_HOST_USER = 'akbaralisalohiddinov808@gmail.com'
-EMAIL_HOST_PASSWORD = 'fioplrlecmgarzuj'
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 
 # django-resized settings (images)
 DJANGORESIZED_DEFAULT_SIZE = [1920, 1080]

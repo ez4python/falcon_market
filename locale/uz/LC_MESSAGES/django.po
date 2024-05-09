@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 17:09+0500\n"
+"POT-Creation-Date: 2024-05-10 00:31+0500\n"
 "PO-Revision-Date: 2024-05-07 17:10+0500\n"
 "Last-Translator: Akbarali Salohiddinov <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: apps/admin/admin.py:15
+#: apps/admin/admin.py:16
 msgid "Personal info"
 msgstr "Shaxsiy ma'lumot"
 
-#: apps/admin/admin.py:17
+#: apps/admin/admin.py:18
 msgid "Permissions"
 msgstr "Ruxsatlar"
 
-#: apps/admin/admin.py:28
+#: apps/admin/admin.py:29
 msgid "Important dates"
 msgstr "Muhim sanalar"
 
