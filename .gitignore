@@ -6,6 +6,7 @@
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
+.idea
 .venv
 pip-selfcheck.json
 .idea/**/workspace.xml
@@ -112,4 +113,3 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
-.idea
